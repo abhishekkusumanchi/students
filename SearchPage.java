@@ -64,7 +64,7 @@ public class SearchPage extends JPanel implements ActionListener {
 					int records = list.size();
 					if (records == 0) {
 						JOptionPane.showMessageDialog(this, "No data found with name" + name);
-					} else if (records > 1) {
+					} else if (records >= 1) {
 						int selectedOption = JOptionPane.showConfirmDialog(this, String
 								.format("%d records found with name %s\nclick yes to show the data ", records, name));
 						if (selectedOption == JOptionPane.YES_OPTION) {
