@@ -92,7 +92,7 @@ public class RegistrationFrame extends JPanel implements ActionListener {
 		lastNameTextField.setBounds(320,180,100,20);
 		
 		mailTextField = new JTextField();
-		mailTextField.setBounds(320,370,100,20);
+		mailTextField.setBounds(320,370,180,20);
 		
 		phoneNumberTextField = new JTextField();
 		phoneNumberTextField.setBounds(320,410,100,20);
