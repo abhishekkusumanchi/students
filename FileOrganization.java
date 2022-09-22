@@ -23,7 +23,7 @@ public class FileOrganization {
 			if (file.getName().equals(fileName))
 				return false;
 		}
-		System.out.print(data);
+		//System.out.print(data);
 		String absolutePath = location + "\\" + fileName;
 
 		File studentFile = null;
