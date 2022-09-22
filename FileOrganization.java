@@ -107,9 +107,9 @@ public class FileOrganization {
 						String nameLine = bufferedReader.readLine();
 					
 						String data = nameLine;
-						System.out.println(name);
+						//System.out.println(name);
 						if (nameLine.toLowerCase().contains(name.toLowerCase())) {
-							System.out.println("yes !");
+							//System.out.println("yes !");
 							for (int i = 0; i < 2; i++) {
 								data = data + "\n" + bufferedReader.readLine();
 							}
